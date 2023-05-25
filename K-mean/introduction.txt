@@ -1,0 +1,17 @@
+////// K-MEAN
+Thuật toán K-means là một thuật toán phân cụm dữ liệu trong Machine Learning. 
+Thuật toán này tìm kiếm các trung tâm cụm và gán các điểm dữ liệu cho cụm gần nhất.
+Cụm ở đây có thể hiểu là các nhóm, tập hợp các điểm dữ liệu có đặc trưng tương tự nhau.
+
+K-means là một thuật toán trong lĩnh vực học không giám sát (unsupervised learning) để phân nhóm dữ liệu
+dựa trên các đặc trưng của chúng. Thuật toán này cố gắng phân chia tập dữ liệu thành các nhóm có tính chất tương tự nhau.
+
+Ý tưởng chính của K-means là phân nhóm dữ liệu dựa trên khoảng cách giữa các điểm dữ liệu. 
+Thuật toán chọn ngẫu nhiên K điểm làm tâm của các nhóm ban đầu. 
+Sau đó, mỗi điểm dữ liệu được gán vào nhóm gần nhất với nó. 
+Tâm của các nhóm được tính toán lại dựa trên các điểm dữ liệu đã được gán vào từ lần phân nhóm trước. 
+Quá trình này được tiếp tục cho đến khi các tâm không thay đổi nữa hoặc đã đạt đến một số lần phân nhóm tối đa
+được xác định trước.
+
+Thuật toán K-means có thể được sử dụng trong nhiều lĩnh vực khác nhau, 
+chẳng hạn như trong phân tích ảnh, phân nhóm khách hàng, phân loại dữ liệu v.v.
